@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/406/479/non_2x/abstract-black-and-blue-background-free-vector.jpg);
+    background-attachment: fixed;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.contenedor .form .form-header .form-title{
+
+    font-weight: normal;
+    font-family: sans-serif;
+        color: #f8f8fa;
+        text-align: center;
+        padding: 14px 0;
+}
+
+.contenedor .form .form-header .form-title span{
+
+    color: rgb(0, 0, 0);
+    
+}
+
+.contenedor .form{
+
+    background: rgba(95, 95, 95, 0.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.contenedor .form .form-label{
+
+    display: block;
+    color: #a1a1a1;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.contenedor .form .form-input, .form-textarea{
+
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color:seashell;
+    font-family:monospace
+
+}
+
+.contenedor .form .form-textarea{
+
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.contenedor .form .button{
+
+    width: 100%;
+    outline: none ;
+    background: rgb(78, 78, 78);
+    font-size: 16px;
+    border: none;
+    padding: 15px 0;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s cubic-bezier();
+}
+
+.contenedor .form .button:hover{
+
+    background: #000000;
+
+}
+
+.radio{
+
+    color: rgb(247, 248, 248);
+    font-size: 16px;
+    border: none;
+}
+#resultadodescuento{
+
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
