@@ -16,7 +16,7 @@ function multiplicar(){
 
         if(valorcompra < 4400000){
 
-            var valordescuento = valorcompra * 0.15;
+            var valordescuento = valorcompra * 0.20;
             var total = valorcompra - valordescuento;
 
             document.getElementById('valorcompra').value = valorcompra;
@@ -30,7 +30,7 @@ function multiplicar(){
 
             if(valorcompra < 8800000){
 
-            var valordescuento = valorcompra * 0.25;
+            var valordescuento = valorcompra * 0.30;
             var total = valorcompra - valordescuento;
 
             document.getElementById('valorcompra').value = valorcompra;
@@ -43,7 +43,7 @@ function multiplicar(){
 
             if(valorcompra < 13200000){
 
-                var valordescuento = valorcompra * 0.35;
+                var valordescuento = valorcompra * 0.40;
                 var total = valorcompra - valordescuento;
     
                 document.getElementById('valorcompra').value = valorcompra;
